@@ -23,15 +23,6 @@ export const Hero: React.FC<HeroProps> = ({
 }) => {
   return (
     <section className='h-dvh md:h-auto mt-0 sm:pt-10 md:pt-11 lg:pt-14 xl:pt-16 atf-container bg-primary relative w-full flex'>
-      <div className='hidden md:inline w-0 md:w-1/2'>
-        <Image
-          src='/hero-image.webp'
-          width={1201}
-          height={1321}
-          alt='A monotone red image of a man addressing a crowd'
-          loading='eager'
-        />
-      </div>
       <div className='w-full md:w-1/2 relative z-10 text-left'>
         <div className='mb-16 max-w-md'>
           <h1 className='pb-7 text-white font-bold tracking-tight'>
@@ -44,6 +35,15 @@ export const Hero: React.FC<HeroProps> = ({
             {buttonText}
           </Link>
         </Button>
+      </div>
+      <div className='hidden md:inline w-0 md:w-1/2'>
+        <Image
+          src='/hero-image.webp'
+          width={1201}
+          height={1321}
+          alt='A monotone red image of a man addressing a crowd'
+          loading='eager'
+        />
       </div>
     </section>
   );

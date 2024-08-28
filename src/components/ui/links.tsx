@@ -7,20 +7,16 @@ let linkList = [
     url: "/about",
   },
   {
-    name: "What We Do",
-    url: "/what-we-do",
+    name: "Services",
+    url: "/services",
   },
   {
-    name: "Get Involved",
-    url: "/get-involved",
+    name: "Gallery",
+    url: "/gallery",
   },
   {
-    name: "Donate",
-    url: "/donate",
-  },
-  {
-    name: "Resources",
-    url: "/resources",
+    name: "Contact Us",
+    url: "/contact",
   },
 ];
 
